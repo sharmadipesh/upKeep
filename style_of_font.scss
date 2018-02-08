@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+@import url('https://fonts.googleapis.com/css?family=Patua+One');
+$paragraph-fonts:'Merriweather', serif;
+$heading-fonts:'Patua One', cursive;
+
+
+.m-paragraph-fonts
+{
+  font-family: $paragraph-fonts;
+  font-size: 15px;
+}
+
+.m-heading-fonts
+{
+  font-family: $heading-fonts;
+  font-size: 24px;
+  font-weight: 300;
+}

@@ -1,0 +1,217 @@
+.section
+{
+    min-height: 670px;
+    overflow: hidden;
+    position: relative;
+    padding-top: 80px;
+    padding:80px 10px 0px;
+}
+.m-image-rounded
+{
+    border-radius: 50%!important;
+    width: 200px;
+    height: 200px;
+}
+.m-card-footer,.m-card-header
+{
+    background-color: white!important;
+}
+.shadow
+{
+    box-shadow: 0 7px 14px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);    
+}
+.m-card-on-page-shadow
+{
+    box-shadow: 0 7px 14px rgba(0,0,0,0.25), 0 5px 5px rgba(0,0,0,0.22);    
+}
+a.navbar-brand
+{
+    color: white!important;
+}
+a.nav-link
+{
+    color: white!important;
+}
+#about p
+{
+    padding: 10px;
+}
+#home
+{
+    background: url(assets/1.jpg) no-repeat center center fixed;    
+    background-size: cover;
+}
+#home .parin
+{
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+#products
+{
+    background: url(assets/3.jpg) no-repeat center center fixed;    
+    background-size: cover;
+}
+#products .parin
+{
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+.m-slide-image-height
+{
+    height: 580px;
+}
+
+.footer 
+{
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+}
+
+.o-container
+{
+    margin-top: 50px;
+    color: #fff;
+    width: 100%;
+}
+
+.fa-twitter 
+{
+    color: #4099FF;
+}
+
+.fa-facebook 
+{
+    color: #3B5998;
+}  
+.fa-youtube-play 
+{
+    color: #e52d27;
+}
+
+.fa-rss 
+{
+    color: #FF6600;
+}
+
+.fa-vine 
+{
+    color: #00a478;
+}
+
+.fa-flickr 
+{
+    color: #ff0084;
+}
+
+.fa-twitch 
+{
+    color: #6441A5;
+}
+
+.fa-linkedin 
+{
+    color: #007bb6;
+}
+
+.fa 
+{
+    transition: 1s;
+    -webkit-transition: 1s;
+}
+
+.fa:hover
+{
+    opacity: 1;
+    transition: 1s;
+    -webkit-transition: 1s;
+}
+
+
+.m-login-card 
+{
+    margin: 0 auto; 
+    float: none; 
+    margin-top: 100px!important;
+    border-radius: 20px;
+}
+
+.m-card-design{
+    border-radius: 20px;
+}
+
+.m-login-card-header 
+{
+    
+        background: linear-gradient(to right, #11998e , #38ef7d);
+}
+/* body{
+    background: linear-gradient(to right, #C33764 , #1D2671);
+} */
+
+
+#m-login-body,.m-other-header
+{
+	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB,#159957,#155799);
+	background-size: 800% 1100%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
+}
+
+@-webkit-keyframes Gradient 
+{
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient 
+{
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+.m-icon-padding
+{
+    width: 48px;
+}
+
+/* color full horizotal line */
+.colorgraph 
+{
+    height: 7px;
+    border-top: 0;
+    background: #c4e17f;
+    border-radius: 5px;
+    background-image: -webkit-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+    background-image: -moz-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+    background-image: -o-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+    background-image: linear-gradient(to right, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+}
